@@ -1,0 +1,105 @@
+.about-hero {
+  position: relative;
+  height: 614px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.brightness-50 {
+  filter: brightness(0.5);
+}
+
+.p-xl {
+  padding: var(--stack-xl);
+}
+
+.p-lg {
+  padding: var(--stack-lg);
+}
+
+.mb-xs {
+  margin-bottom: var(--stack-xs);
+}
+
+.journey-card {
+  border-radius: var(--radius-xl);
+}
+
+.feature-card {
+  border-radius: var(--radius-xl);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.border-primary {
+  border-color: var(--primary);
+}
+
+.mission-card {
+  border-radius: var(--radius-xl);
+}
+
+.mission-line {
+  width: 48px;
+  height: 4px;
+  border-radius: var(--radius-full);
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.lg\:w-half {
+  width: 50%;
+}
+
+@media (max-width: 1024px) {
+  .lg\:flex-row {
+    flex-direction: column;
+  }
+  .lg\:w-half {
+    width: 100%;
+  }
+  .lg\:col-span-7 {
+    grid-column: span 1;
+  }
+  .lg\:col-span-5 {
+    grid-column: span 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:col-span-7 {
+    grid-column: span 7 / span 7;
+  }
+  .lg\:col-span-5 {
+    grid-column: span 5 / span 5;
+  }
+  .lg\:grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+}
+
+.expertise-image-wrapper {
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

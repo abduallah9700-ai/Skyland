@@ -1,0 +1,125 @@
+.navbar-container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  background-color: rgba(252, 249, 248, 0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--outline-variant);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-logo {
+  height: 40px;
+  width: auto;
+}
+
+.navbar-title {
+  color: var(--primary);
+  font-weight: 700;
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .navbar-title {
+    display: inline;
+  }
+}
+
+.navbar-links {
+  display: none;
+  gap: 32px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .navbar-links {
+    display: flex;
+  }
+}
+
+.nav-link {
+  color: var(--on-surface-variant);
+  transition: color 0.2s;
+  padding-bottom: 4px;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.nav-link.active {
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.dispatch-info {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media (min-width: 1024px) {
+  .dispatch-info {
+    display: flex;
+  }
+}
+
+.dispatch-label {
+  color: var(--on-surface-variant);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.dispatch-phone {
+  color: var(--primary);
+}
+
+.mobile-menu-toggle {
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--primary);
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-toggle {
+    display: none;
+  }
+}
+
+/* Mobile Menu Opened */
+.navbar-links.open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--surface);
+  padding: 24px;
+  border-bottom: 1px solid var(--outline-variant);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
