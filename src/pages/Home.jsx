@@ -119,7 +119,7 @@ const Home = () => {
               </div>
               <h3 className="font-headline-md text-primary mb-sm">Cold Chain</h3>
               <p className="font-body-md text-on-surface-variant mb-md flex-grow">
-                End-to-end supply chain solutions including multi-temp storage and distribution planning specifically for the food and beverage industry.
+                Reliable refrigerated trucking based in Green Bay, WI. Delivering fresh freight safely and on time while growing to serve more customers nationwide.
               </p>
               <Link to="/services" className="service-link font-label-md text-primary flex items-center">
                 Learn More <span className="material-symbols-outlined text-sm ml-1">arrow_forward</span>

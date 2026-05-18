@@ -18,14 +18,24 @@ const Contact = () => {
           
           {/* Contact Cards Section */}
           <div className="lg:col-span-5 grid grid-cols-1 gap-lg">
-            {/* Primary Call Card */}
-            <a href="tel:920-530-5147" className="call-card bg-secondary-container p-lg flex-col gap-sm">
+            {/* Dispatch Call Card */}
+            <a href="tel:920-227-1701" className="call-card bg-secondary-container p-lg flex-col gap-sm">
               <div className="call-icon bg-primary-container text-secondary-fixed">
-                <span className="material-symbols-outlined">call</span>
+                <span className="material-symbols-outlined">support_agent</span>
               </div>
-              <span className="font-label-md text-on-secondary-container">24/7 Dispatch Line</span>
+              <span className="font-label-md text-on-secondary-container">Dispatch: Jay</span>
+              <span className="font-headline-lg text-primary hover-shift">920-227-1701</span>
+              <p className="font-body-md text-on-secondary-container opacity-80 mt-2">Tap to call dispatch directly.</p>
+            </a>
+
+            {/* Company Call Card */}
+            <a href="tel:920-530-5147" className="call-card bg-surface-container p-lg flex-col gap-sm">
+              <div className="call-icon bg-primary text-on-primary">
+                <span className="material-symbols-outlined">business</span>
+              </div>
+              <span className="font-label-md text-on-surface-variant">Company Line</span>
               <span className="font-headline-lg text-primary hover-shift">920-530-5147</span>
-              <p className="font-body-md text-on-secondary-container opacity-80 mt-2">Tap to call our Green Bay headquarters directly.</p>
+              <p className="font-body-md text-on-surface-variant opacity-80 mt-2">Tap to call our headquarters.</p>
             </a>
             
             <div className="grid md:grid-cols-2 gap-lg">

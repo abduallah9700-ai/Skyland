@@ -13,7 +13,7 @@ const Footer = () => {
             className="footer-logo"
           />
           <p className="font-body-md">
-            Premier refrigerated logistics headquartered in Green Bay, WI. Ensuring fresh delivery nationwide.
+            Small enough to care, reliable enough to deliver. Reefer transportation you can trust.
           </p>
           <div className="footer-icons">
             <span className="material-symbols-outlined">local_shipping</span>
@@ -45,7 +45,8 @@ const Footer = () => {
 
           <div className="footer-contact-info">
             <p className="font-label-md text-small">Green Bay, WI</p>
-            <p className="font-label-md text-small">920-530-5147</p>
+            <p className="font-label-md text-small">Dispatch (Jay): 920-227-1701</p>
+            <p className="font-label-md text-small">Company: 920-530-5147</p>
             <p className="font-label-md text-small">skylandexpressllc1@gmail.com</p>
           </div>
         </div>

@@ -110,7 +110,7 @@ const Services = () => {
             <Link to="/contact" className="btn btn-primary shadow-lg">
               Get a Quote for Your Freight
             </Link>
-            <a href="tel:920-530-5147" className="btn btn-outline">
+            <a href="tel:920-227-1701" className="btn btn-outline">
               Contact Dispatch
             </a>
           </div>
