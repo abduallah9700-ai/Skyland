@@ -108,18 +108,19 @@
 
 .about-badge {
   bottom: -24px;
-  left: -24px;
+  left: 16px;
   background-color: white;
-  padding: 24px;
+  padding: 16px 24px;
   border-radius: 16px;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   border: 1px solid var(--outline-variant);
-  display: none;
+  display: block;
 }
 
 @media (min-width: 1024px) {
   .about-badge {
-    display: block;
+    left: -24px;
+    padding: 24px;
   }
 }
 

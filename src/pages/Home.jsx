@@ -58,8 +58,8 @@ const Home = () => {
           <div className="about-image-wrapper relative">
             <div className="about-image-container">
               <img 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB8Mtq9Pd10u4KwuaI4zYowSnQHTmW5Yec0JCDmHXX5q9k3u0RX6Hhtro0feko-14V2HSZkVztzS5SmZFhB4bXePRzN8S8qA6RyHU0jXZx8Cuc3W17ceXW55tdEwNHe4s7NekjVTqxBa8LzKyWAAXwB598R2MrGBZ67CsKsj9hFtnUQ4Jkctb4KyggIwdleZ7TidHFJK7cCZhzBFiH7o2xxAseExMU9_IihOtYnqSzyT3obH4uVFvZMab8RFOf2pZVdtDw8t9zjTXv" 
-                alt="Logistics truck" 
+                src="/about_truck.jpg" 
+                alt="Logistics truck on highway" 
                 className="w-full h-full object-cover"
               />
             </div>
